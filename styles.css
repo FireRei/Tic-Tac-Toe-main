@@ -1,0 +1,55 @@
+
+
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 100%;
+	flex: 1;
+}
+
+.wrapper {
+	display: grid;
+	grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+	min-width: 30%;
+	height: 30rem;
+}
+
+.board {
+	text-align: center;
+	padding-top: 40%;
+	font-size: 50px;
+	border: 2px solid black;
+}
+
+body {
+	background-color: #fecdd3;
+}
+
+button {
+	height: 5vh;
+	width: 10vw;
+	display: flex;
+	justify-self: flex-start;
+}
+
+form {
+	justify-self: flex-start;
+}
+
+.right {
+	border-right: 0;
+}
+
+.left {
+	border-left: 0;
+}
+
+.top {
+	border-top: 0;
+}
+
+.bottom {
+	border-bottom: 0;
+}
